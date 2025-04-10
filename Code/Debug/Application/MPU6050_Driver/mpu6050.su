@@ -1,6 +1,0 @@
-../Application/MPU6050_Driver/mpu6050.c:34:9:MPU6050_Init	40	static
-../Application/MPU6050_Driver/mpu6050.c:67:6:MPU6050_Read_Accel	40	static
-../Application/MPU6050_Driver/mpu6050.c:89:6:MPU6050_Read_Gyro	40	static
-../Application/MPU6050_Driver/mpu6050.c:111:6:MPU6050_Read_Temp	40	static
-../Application/MPU6050_Driver/mpu6050.c:124:6:MPU6050_Read_All	112	static
-../Application/MPU6050_Driver/mpu6050.c:178:8:Kalman_getAngle	88	static
