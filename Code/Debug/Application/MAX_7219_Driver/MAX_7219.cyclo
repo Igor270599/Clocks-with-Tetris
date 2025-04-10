@@ -1,7 +1,0 @@
-../Application/MAX_7219_Driver/MAX_7219.c:14:6:InitMax7219	7
-../Application/MAX_7219_Driver/MAX_7219.c:66:6:ClearMax7219	2
-../Application/MAX_7219_Driver/MAX_7219.c:74:6:SetPixel	4
-../Application/MAX_7219_Driver/MAX_7219.c:92:6:GetPixel	2
-../Application/MAX_7219_Driver/MAX_7219.c:108:6:UpdateMax7219	16
-../Application/MAX_7219_Driver/MAX_7219.c:162:6:DrowDigit	21
-../Application/MAX_7219_Driver/MAX_7219.c:274:6:SetIntensivity	4

@@ -1,5 +1,0 @@
-../Application/Buttons/Buttons.c:10:6:ButtonsTask	16	static
-../Application/Buttons/Buttons.c:82:6:ProcessButtons	24	static
-../Application/Buttons/Buttons.c:358:6:ReadButtons	8	static
-../Application/Buttons/Buttons.c:451:6:ProcessJoestick	16	static
-../Application/Buttons/Buttons.c:482:6:KeysReset	16	static

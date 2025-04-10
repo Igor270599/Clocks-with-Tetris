@@ -1,4 +1,0 @@
-../System/UART/UART.c:12:6:UART_1_Init	2
-../System/UART/UART.c:23:6:UART_1_ClearBuffers	2
-../System/UART/UART.c:33:6:UART_1_Transmit	2
-../System/UART/UART.c:46:6:HAL_UART_TxCpltCallback	1
