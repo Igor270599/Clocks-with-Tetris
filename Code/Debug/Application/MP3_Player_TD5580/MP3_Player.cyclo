@@ -1,0 +1,10 @@
+../Application/MP3_Player_TD5580/MP3_Player.c:10:10:CalcCrc	2
+../Application/MP3_Player_TD5580/MP3_Player.c:23:6:SayTime	1
+../Application/MP3_Player_TD5580/MP3_Player.c:29:6:MP3_Task	26
+../Application/MP3_Player_TD5580/MP3_Player.c:161:10:GenarateTrack	1
+../Application/MP3_Player_TD5580/MP3_Player.c:170:6:MP3_SetVolume	2
+../Application/MP3_Player_TD5580/MP3_Player.c:191:6:MP3_Pause	2
+../Application/MP3_Player_TD5580/MP3_Player.c:213:6:MP3_Play	2
+../Application/MP3_Player_TD5580/MP3_Player.c:234:6:MP3_Stop	2
+../Application/MP3_Player_TD5580/MP3_Player.c:256:6:MP3_Reset	2
+../Application/MP3_Player_TD5580/MP3_Player.c:277:6:MP3_PlayTrack	2
