@@ -1,0 +1,1 @@
+copy  Clock_With_Tetris_Final.elf ..\Output

@@ -1,0 +1,4 @@
+../System/SPI/SPI.c:12:6:SPI_2_Init	16	static
+../System/SPI/SPI.c:23:6:SPI_2_ClearBuffers	16	static
+../System/SPI/SPI.c:33:6:SPI_2_Transmit	16	static
+../System/SPI/SPI.c:47:6:HAL_SPI_TxCpltCallback	16	static

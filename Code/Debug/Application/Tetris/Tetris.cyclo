@@ -1,0 +1,6 @@
+../Application/Tetris/Tetris.c:55:6:RestartGame	1
+../Application/Tetris/Tetris.c:69:6:StartGame	3
+../Application/Tetris/Tetris.c:97:10:getSeed	1
+../Application/Tetris/Tetris.c:104:6:ClearLines	17
+../Application/Tetris/Tetris.c:181:6:drawFigure	4
+../Application/Tetris/Tetris.c:215:6:checkArea	18

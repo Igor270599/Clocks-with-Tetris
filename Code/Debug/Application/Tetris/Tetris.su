@@ -1,0 +1,6 @@
+../Application/Tetris/Tetris.c:55:6:RestartGame	8	static
+../Application/Tetris/Tetris.c:69:6:StartGame	16	static
+../Application/Tetris/Tetris.c:97:10:getSeed	16	static
+../Application/Tetris/Tetris.c:104:6:ClearLines	24	static
+../Application/Tetris/Tetris.c:181:6:drawFigure	32	static
+../Application/Tetris/Tetris.c:215:6:checkArea	24	static
