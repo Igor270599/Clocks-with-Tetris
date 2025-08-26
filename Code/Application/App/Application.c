@@ -289,6 +289,29 @@ bool keyResetFlag=true;
 							}
 						}
 
+						if(Application.rouserDefinition.timeout != 0)
+						{
+							Application.rouserDefinition.timeout--;
+						}
+						else
+						{
+							if(Application.rouserDefinition.isSignalEnabled==true)
+							{
+								AlarmTimerDisableButton();
+							}
+						}
+
+						if(Application.timerDefinition.timeout != 0)
+						{
+							Application.timerDefinition.timeout--;
+						}
+						else
+						{
+							if(Application.timerDefinition.isSignalEnabled==true)
+							{
+								AlarmTimerDisableButton();
+							}
+						}
 
 						UpdateTime();
 						MPU6050_Read_All(&hi2c1, &MPU6050);
@@ -303,6 +326,7 @@ bool keyResetFlag=true;
 							if((Application.rouserDefinition.isSignalEnabled==false)&&(Application.rouserDefinition.isAlarmChecked==false)&&(Application.rouserDefinition.isAlarmEnabled==true))
 							{
 								Application.rouserDefinition.isSignalEnabled=true;
+								Application.rouserDefinition.timeout=TIMER_ALARM_TIMEOUT;
 								Application.saved_volume=Application.volume;
 								Application.volume=10;
 								MP3_SetVolume(Application.volume);
@@ -339,6 +363,7 @@ bool keyResetFlag=true;
 							if(Application.timerDefinition.isSignalEnabled==false)
 							{
 								Application.timerDefinition.isSignalEnabled=true;
+								Application.timerDefinition.timeout=TIMER_ALARM_TIMEOUT;
 								Application.saved_volume=Application.volume;
 								Application.volume=10;
 								MP3_SetVolume(Application.volume);

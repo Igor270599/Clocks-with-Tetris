@@ -44,6 +44,8 @@ typedef struct Timers_t
 #define INTENSIVITY_NORMAL_VALUE	2
 #define INTENSIVITY_HIGHT_VALUE		5
 
+#define TIMER_ALARM_TIMEOUT		300		//(60*5=300) Время через которое сигналавтоматически выключится
+
 typedef struct Clock_Def_t
 {
 	uint8_t			hours;
@@ -100,6 +102,7 @@ typedef struct Rouser_Def_t
 	bool	 		isAlarmChecked;
 	bool	 		isSignalEnabled;
 	bool	 		isBorderEnabled;
+	uint16_t		timeout;
 	t_alarm_type 	alarmType;
 }Rouser_Def_t;
 
@@ -114,6 +117,7 @@ typedef struct Timer_Def_t
 	bool	 		isDotsBlinked;
 	uint8_t 		remainder;			//остаток секунд в минуте для повышения точности
 	uint32_t 		startTime;			//остаток секунд в минуте для повышения точности
+	uint16_t		timeout;
 }Timer_Def_t;
 
 typedef enum light_level_t
